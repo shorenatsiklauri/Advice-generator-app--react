@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Manrope:wght@800&display=swap");
+* {
+  border: none;
+  margin: none;
+}
+body {
+  background: #202733;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Manrope";
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  height: 315px;
+  width: 343px;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+  background-color: #313a48;
+  font-family: "Manrope";
+}
+header p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 4.08571px;
+
+  /* Neon Green */
+
+  color: #53ffaa;
+}
+
+.answer p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.3px;
+
+  /* Light Cyan */
+
+  color: #cee3e9;
+}
+
+.boxbutton {
+  height: 64px;
+  width: 64px;
+  left: 139px;
+  top: 283px;
+  border-radius: 50%;
+  background-color: #53ffaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: -30px;
+}
+
+.boxbutton:hover {
+  background-color: white;
+}
+
+.pictureofline {
+  margin-top: 80px;
+}
+.answer {
+  height: 132px;
+  width: 295px;
+  left: 24px;
+  top: 79px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+@media screen and (min-width: 992px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    height: 364px;
+    width: 540px;
+    left: 450px;
+    top: 223px;
+    border-radius: 15px;
+
+    background-color: #313a48;
+  }
+}

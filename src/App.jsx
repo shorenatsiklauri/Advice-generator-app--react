@@ -5,6 +5,10 @@ import axios from 'axios';
 function App() {
   const [response, setResponse] = useState([]);
 
+  useEffect(()=> {
+    getData();
+  },[])
+
   const getData = async () => {
     try {
       const response = await axios.get("https://api.adviceslip.com/advice");
@@ -24,7 +28,7 @@ console.log(response);
         <div className="card">
           <header>
             <p>ADVICE {response.id}</p>
-          </header>
+                      </header>
           <div className="answer">
           <p> {response.advice} </p>
           </div>
